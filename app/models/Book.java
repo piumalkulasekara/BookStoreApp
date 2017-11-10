@@ -3,7 +3,9 @@ package models;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Book {
+import io.ebean.Model;
+
+public class Book extends Model {
 
     public Integer id;
     public String title;
