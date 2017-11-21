@@ -8,6 +8,7 @@ scalaVersion := "2.12.2"
 
 libraryDependencies += guice
 libraryDependencies += jdbc
+libraryDependencies += javaWs
 
 
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
@@ -16,11 +17,12 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.6"
 // https://mvnrepository.com/artifact/javax.persistence/persistence-api
 libraryDependencies += "javax.persistence" % "persistence-api" % "1.0.2"
 
-// https://mvnrepository.com/artifact/org.avaje/ebean
-libraryDependencies += "org.avaje" % "ebean" % "2.8.1"
+//// https://mvnrepository.com/artifact/org.avaje/ebean
+//libraryDependencies += "org.avaje" % "ebean" % "4.0.6"
+
 
 // Test Database
-libraryDependencies += "com.h2database" % "h2" % "1.4.194"
+//libraryDependencies += "com.h2database" % "h2" % "1.4.194"
 
 // Testing libraries for dealing with CompletionStage...
 libraryDependencies += "org.awaitility" % "awaitility" % "2.0.0" % Test
